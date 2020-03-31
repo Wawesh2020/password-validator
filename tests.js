@@ -5,7 +5,7 @@ const validatePassword = require('./index')
 describe('validatePassword', () => {
   it('returns true when the password meets all requirements', () => {
     const valid = validatePassword('P455w0rd!')
-
+  
     expect(valid).to.equal(true)
   })
 
